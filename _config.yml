@@ -1,0 +1,12 @@
+# basic options, this is coment section
+title: New POC for DXC Innovation 
+author: Golam M Khan 
+email: mustapha786@gmail.com
+description: POC only 
+twitter_username: mustapha786 
+github_username:  mustapha786
+
+# Build settings
+markdown: kramdown
+theme: minima
+
