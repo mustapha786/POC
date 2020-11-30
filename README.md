@@ -33,40 +33,40 @@ Now, a new .NET based solution is provided to maintain the entire processing of 
 
 
 # Application Functionality
- <-------------------------------------------------------------
- *This text should remain in the run book even after completion*
-•	Provide functional overview of the application
-•	Key functions supported / provided
-•	Explain the functionality of the major modules of the application in 3 or 4 lines and any available document can also be embedded.
--------------------------------------------------------------->
+ _Note : This text should remain in the run book even after completion
+* Provide functional overview of the application
+* Key functions supported / provided
+*	Explain the functionality of the major modules of the application in 3 or 4 lines and any available document can also be embedded._
+ 
 
-The application deals with the major functionalities given below. These functionalities are described in details in section 3.4.
-SNO	Functional Modules
-1	Policy Processing - FOCUS Batch
-2	Policy Processing - FOCUS Online (PPPR)
-3	Policy Processing - Auto FOCUS 
-4	Policy Processing - PAR Batch
-5	Policy Processing - EAGLE Batch
-6	Policy Processing - EAGLE Inquiry(IN00)
-7	Policy Processing - PAR/NPD Inquiry (K121)
-8	Policy Processing - NPD Batch
-9	Policy Processing - FAST (K128)
-10	Policy Processing - FAST Batch
-11	Policy Processing - Generic Rating (K138)
-12	Policy Processing - KARS Microfilm Indexing
-13	Policy Processing – Keyfast
-14	Policy Processing – Correspondence
-15	Policy Processing – BIAS
-16	Policy Processing - Credit Scoring/Reporting
-17	Policy Processing - QMS (Muni-Tax Vendor Software)
-18	Policy Processing - Policy transfer Utility
-19	Policy Processing - SDS Message Mover
-20	Policy Processing - Agency Download
-21	Policy Processing - List Management
-22	Policy Processing - Direct Marketing System (DMS)
-23	Policy Processing - Group-1 Software
-24	Policy Processing – CEA
-25	Policy Processing – DUCK batch
+The application deals with the major functionalities given below. 
+These functionalities are described in details in section 3.4.
+## SNO	Functional Modules
+1.	 Policy Processing - FOCUS Batch
+2.	 Policy Processing - FOCUS Online (PPPR)
+3.	 Policy Processing - Auto FOCUS 
+4.	 Policy Processing - PAR Batch
+5.	 Policy Processing - EAGLE Batch
+6.	 Policy Processing - EAGLE Inquiry(IN00)
+7.	 Policy Processing - PAR/NPD Inquiry (K121)
+8.	 Policy Processing - NPD Batch
+9.	 Policy Processing - FAST (K128)
+10. Policy Processing - FAST Batch
+11.	Policy Processing - Generic Rating (K138)
+12.	Policy Processing - KARS Microfilm Indexing
+13.	Policy Processing – Keyfast
+14.	Policy Processing – Correspondence
+15.	Policy Processing – BIAS
+16.	Policy Processing - Credit Scoring/Reporting
+17.	Policy Processing - QMS (Muni-Tax Vendor Software)
+18.	Policy Processing - Policy transfer Utility
+19.	Policy Processing - SDS Message Mover
+20.	Policy Processing - Agency Download
+21.	Policy Processing - List Management
+22.	Policy Processing - Direct Marketing System (DMS)
+23.	Policy Processing - Group-1 Software
+24.	Policy Processing – CEA
+25.	Policy Processing – DUCK batch
 
 
 # Application Inputs:
@@ -78,8 +78,8 @@ Speciality dwelling policies will be created in DUCK online and the agent will f
 # Application Outputs:
 
 There are several entities used in PPS Online applications. The relationship of the entities is as follows:
-•	 Online transactions related to Mobile Home policies are stored in PAR Master Files which are ADABAS.           
-•	 Online transactions related to Specialty Dwelling and Commercial Mobile Home policies are stored in EAGLE Master Files which are ADABAS.           
-•	 Predefined and Conditional values are stored in the form of tables using Tablebase software from on-line and batch applications. 
-•	All the new speciality dwelling policies are stored in new DB2 tables for which the data is loaded from DUCK online using a ETL tool.  
+*	 Online transactions related to Mobile Home policies are stored in PAR Master Files which are ADABAS.           
+*	 Online transactions related to Specialty Dwelling and Commercial Mobile Home policies are stored in EAGLE Master Files which are ADABAS.           
+*	 Predefined and Conditional values are stored in the form of tables using Tablebase software from on-line and batch applications. 
+*	All the new speciality dwelling policies are stored in new DB2 tables for which the data is loaded from DUCK online using a ETL tool.  
 
